@@ -1,0 +1,13 @@
+fitlet3.txt
+Created Tue 25 Oct 2022 02:31:00 PM AKDT
+Copyright (C) 2022 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Compulab fitlet3 fanless workstation
+
+
+Links
+=====
+fitlet3 – build-to-order - fit IoT
+https://fit-iot.com/web/product/fitlet3-build-to-order/
+
