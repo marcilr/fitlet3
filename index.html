@@ -2,12 +2,6 @@
 <html>
 <head>
   <title>Fitlet3</title>
-
-  <style type="text/css">
-  td {
-    padding: 0 1[6]px;
-  }
-  </style>
 </head>
 
 
@@ -22,7 +16,7 @@ Example
 
 <style>
 .content {
-  max-width: [6]00px;
+  max-width: 500px;
   margin: auto;
 }
 </style>
@@ -40,12 +34,6 @@ https://www.w3schools.com/howto/howto_css_center_website.asp
 .content {
   max-width: 800px;
   margin: auto;
-}
-th, td {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-right: 20px;
 }
 </style>
 
@@ -74,7 +62,7 @@ th, td {
       <td>
         marcilr/index.html<br>
         by Raymond E. Marcil marcilr@gmail.com<br>
-        Created Tue 2[6] Oct 2022 02:33:41 PM AKDT<br>
+        Created Tue 25 Oct 2022 02:33:41 PM AKDT<br>
       </td>
      </tr>
       <td align=right>
@@ -92,27 +80,48 @@ th, td {
 <!--- =========================== FITLET3 ========================= --->
 <!--- =========================== FITLET3 ========================= --->
 <p style="margin-top:1cm;">
-<h1><a style="text-decoration:none;color:black" href="https://fit-iot.com/web/product/fitlet3-build-to-order/">
+<h1><a href="https://fit-iot.com/web/product/fitlet3-build-to-order/">
       fitlet 3 build-to-order</a></h1>
 
 fanless, IoT technology<br>
-by <a href="https://www.compulab.com/">CompuLab</a><br>
+by Compulab<br>
 
 
 <p style="margin-top:2cm;">
-<a href="pics/fitlet3_angled.png">
+<a style="text-decoration:none;" href="pics/fitlet3_angled.png">
   <img src="pics/fitlet3_angled.png" width="400"></a>
 
-<p style="margin-top:1cm;">
-fitlet3 – build-to-order <a href="#footnote0">[1]</a>
-  
-<p style="margin-top:1cm;">
-Minature, fanless pc, can be configured as primary workstation.<br>
 
-<p style="margin-top:0.[6]cm;">
+<!--- ========================= FOOTNOTE 1 =========================== --->
+<p style="margin-top:1cm;">
+  fitlet3 – build-to-order <a href="#footnote1">[1]</a>
+
+<p style="margin-top:1.0cm;">
   &quot;It provides performance that not long ago required a Core CPU that could not be fitted in such a small passively-cooled footprint due to higher power consumption.&quot; <a href="#footnote1">[2]</a>
 
-  
+<!--- ======================== FITLET2 TO FITLET3 UPGRADE ======== --->
+<!--- ======================== FITLET2 TO FITLET3 UPGRADE ======== --->
+<p style="margin-top:2cm;">
+<h2>fitlet2 to fitlet3 upgrade</h2>
+
+From <a href="file:///home/marcilr/git/">git/</a> inspection looks
+like I made my first fitlet2 purchase on
+<a href="file:///home/marcilr/git/workstation/compulab/fitlet2/orders/order-20190109.txt">Janary 9, 2019</a>.<br>
+Running dmesg shows fitlet2 has 1TB Crucial CT1000MX500SSD1 drive.
+
+<p style="margin-top:0.5cm;">
+$ sudo dmesg<br>
+...<br>
+[    3.743903] ata1.00: ATA-10: CT1000MX500SSD1, M3CR023, max UDMA/133<br>
+...<br>
+$<br>
+</p>
+
+<p style="margin-top:0.5cm;">
+Whilst the 1TB Crucial SSD has done great an NVMe in the new fitlet3
+would alleviate the attached bay for the 2.5&quot; SSD drive.
+
+
 <!--- ======================== FITLET3 FRONT ===================== --->
 <!--- ======================== FITLET3 FRONT ===================== --->
 <p style="margin-top:2cm;">
@@ -153,6 +162,7 @@ Front includes 7 items:<br>
   <li>2x GbE RJ4[6]
 </ul>
 
+
 <!--- =============== COMPONENT DESCRIPTION AND PRICE ================ --->
 <!--- =============== COMPONENT DESCRIPTION AND PRICE ================ --->
 <!--- =============== COMPONENT DESCRIPTION AND PRICE ================ --->
@@ -171,33 +181,34 @@ Front includes 7 items:<br>
     <td>$149.73</td>
   </tr>
   <tr>
-    <td>Terminal block w/ RS-232,<br>
-      RS-48[6], GPIOs
-    </td>
+    <td>Terminal block w/ RS-232, RS-485, GPIOs [S]</td>
     <td>$11.94</td>
   </tr>
   <tr>
-    <td>2x extra RJ4[6], for 4x total</td>
-    <td>$23.6[6]</td>  
+    <td>
+      FC3-LAN 2x Gbit Ethernet [FLAN]<br>
+      2x extra RJ45, for 4x total
+    </td>
+    <td>$23.65</td>  
   </tr>
   <tr>
     <td>Base price</td>
-    <td colspan="2">$29[6].[6]9</td>
+    <td colspan="2">$295.59</td>
   </tr>
   <tr>
     <td><strong>Total<strong></td>
-    <td><strong>$6[6]8.71</strong></td>
+    <td><strong>$658.71</strong></td>
   </tr>
 </table>
     
 <p style="margin-top:1cm;">
-$177.80 + $149.73 + $11.94 + $23.6[6] + $29[6].[6]9 = $6[6]8.71
+$177.80 + $149.73 + $11.94 + $23.65 + $295.59 = $658.71
 
-<p style="margin-top:0.[6]cm;">
+<p style="margin-top:0.5cm;">
 Wow, this is a pretty outstanding low cost box.
 
 <p style="margin-top:1cm;">
-NOTE: Struck M.2 SATA [6]12 GB [M[6]12], $168.93 from build.<br>
+NOTE: Struck M.2 SATA 512 GB [M512], $168.93 from build.<br>
 1TB M.2 NVMe storage is the way to go.
   
 <p style="margin-top:1cm;">
@@ -221,7 +232,7 @@ NOTE: Struck M.2 SATA [6]12 GB [M[6]12], $168.93 from build.<br>
     <!--- ========================== CPU ========================= --->
     <tr>
       <td>cpu</td>
-      <td>Atom x642[6]E, 4C, 2.0GHz, 12W<br>
+      <td>Atom x6425E, 4C, 2.0GHz, 12W<br>
       <td>default</td>
     </tr>
     
@@ -241,7 +252,7 @@ NOTE: Struck M.2 SATA [6]12 GB [M[6]12], $168.93 from build.<br>
       <td>nvme</td>
       <td>
         1TB<br>
-        Is NVMe and 2.[6]&quot; HDD/SDD possible in the same Fitlet3?<br>
+        Is NVMe and 2.5&quot; HDD/SDD possible in the same Fitlet3?<br>
         Multiple boot targets would be desirable.
       </td>
       <td>$149.73</td>
@@ -262,35 +273,32 @@ NOTE: Struck M.2 SATA [6]12 GB [M[6]12], $168.93 from build.<br>
     <!--- ========================== SATA ======================== --->
     <tr valign="top">
       <td>sata</td>
-      <td colspan="2">
-        Optional 2.[6]&quot; HDD/SSD bay would be nice.<br>
+      <td>
+        Optional 2.5&quot; HDD/SSD bay would be nice.<br>
         Keeping the option of alternate storage.<br>
-        1TB or 2TB Crucial 2.[6]&quot; SSD strikes me as
+        1TB or 2TB Crucial 2.5&quot; SSD strikes me as
         a good item.<br>
         The fitlet3 supports 2 storage devices.<br>
         The fitlet2 supports 1 storage device.<br>
         Would require optional bottem attachment.<br>
         The Fitlet2 has this.
 
-        <p colspan="2">
+        <p>
         Then again with 1TB NVMe perhaps superfluous.
       </td>
+      <td>???</td>
     </tr>
     
     <!--- ==================== NET ====================== --->
     <!--- ==================== NET ====================== --->
     <tr valign="top">
       <td>net</td>
-      <td colspan="2">
-        2x GbE RJ4[6] (default)<br>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td>&nbsp</td>
       <td>
-        4x GbE RJ4[6]<br>
+        2x GbE RJ45 (default)<br>
+        Optional: 2x GbE RJ45<br>
+        for 4x total</td>
       </td>
-      <td>$23.6[6]</td>
+      <td>$23.65</td>
     </tr>
     
     <!--- ==================== WIFI ===================== --->
@@ -298,9 +306,8 @@ NOTE: Struck M.2 SATA [6]12 GB [M[6]12], $168.93 from build.<br>
     <tr>
       <td>wifi</td>
       <td>
-        Optional WiFi 6E
-        and Bluetooth [6] module<br>
-        (not needed)
+        Optional WiFi 6E<br>
+        and Bluetooth 5 module (not needed)
       </td>
       <td>&nbsp;</td>
     </tr>
@@ -309,7 +316,7 @@ NOTE: Struck M.2 SATA [6]12 GB [M[6]12], $168.93 from build.<br>
     <!--- ==================== DIMENSIONS =============== --->
     <tr>
       <td>dimensions</td>
-      <td>132.8 x 100 x 34.8mm [3]</td>
+      <td>132.8 x 100 x 34.8 mm <a href="#footnote3">[3]</a></td>
       <td>&nbsp;</td>
     </tr>
     
@@ -317,7 +324,7 @@ NOTE: Struck M.2 SATA [6]12 GB [M[6]12], $168.93 from build.<br>
     <!--- ==================== WEIGHT =================== --->    
     <tr>
       <td>weight</td>
-      <td>1kg (1.4lbs)</td>
+      <td>420 grams <a href="#footnote3">[3]</td>
       <td>&nbsp;</td>
     </tr>
 
@@ -326,7 +333,7 @@ NOTE: Struck M.2 SATA [6]12 GB [M[6]12], $168.93 from build.<br>
     <tr>
       <td>price</td>
       <td>Base price</td>
-      <td>$29[6].[6]0</td>
+      <td>$295.50</td>
     </tr>
 
     <!--- ==================== TOTAL ==================== --->
@@ -334,12 +341,16 @@ NOTE: Struck M.2 SATA [6]12 GB [M[6]12], $168.93 from build.<br>
     <tr>
       <td>total</td>
       <td>total for all components</td>
-      <td>???</td>
+      <td>$658.62</td>
     </tr>
 </table>
 
 <p style="margin-top:1cm;">
+$177.80 + $149.73 + $11.94 + $23.65 + $295.50 = $658.62
+
+<p style="margin-top:1cm;">
 All metrics from <a href="https://fit-iot.com/web/product/fitlet3-build-to-order/">fitlet3 – build-to-order</a> page unless otherwise noted.
+
 
 <!---
 <p style="margin-top:1cm;">
@@ -350,7 +361,8 @@ with up to 16 GB RAM.
 It provides performance that not long ago required
 a Core CPU that could not be fitted in such a small
 passively-cooled footprint due to higher power 
-consumption.&quot;<a href="https://fit-iot.com/web/product/fitlet3-build-to-order/">[3]</a>
+consumption.&quot;<a href="#footnote2">[2]</a>
+
 
 <!--- ============================== FILELIST ========================= --->
 <!--- ============================== FILELIST ========================= --->
@@ -358,26 +370,10 @@ consumption.&quot;<a href="https://fit-iot.com/web/product/fitlet3-build-to-orde
 <p style="margin-top:1cm;">
 <h2>Filelist</h2>
 
-<a href="../fitlet2/index.html">Fitlet2</a><br>
+Fitlet2<br>
 Compulab workstation that I use on a daily basis.<br>
-Wed 26 Oct 2022 0[6]:09:39 PM AKDT
-
-<p style="margin-top:0.[6]cm;">
-<a href="pdf/fitlet3_datasheet.pdf">
-fitlet3_datasheet.pdf<br>
-Link from fit-PC wiki  <a href="#footnote3">[4]</a><br>  
-<a href="https://s3.amazonaws.com/fit-iot/fitlet3/documents/fitlet3_datasheet.pdf">https://s3.amazonaws.com/fit-iot/fitlet3/documents/fitlet3_datasheet.pdf</a>
-
-<p style="margin-top:0.[6]cm;">
-<a href="pdf/fitlet3-owners-manual.pdf">fitlet3-owners-manual.pdf<a/><br>
-Link from fit-PC wiki  <a href="#footnote3">[4]</a><br>    
-<a href="https://fit-iot.com/files/fitlet3/documents/fitlet3-owners-manual.pdf">https://fit-iot.com/files/fitlet3/documents/fitlet3-owners-manual.pdf</a><br>
-
-<p style="margin-top:0.[6]cm;">
-<a href="pdf/fitlet2-vs-fitlet3.pdf">fitlet2-vs-fitlet3.pdf</a><br>
-Comparison of fitlet3 vs fitlet2 characteristics<br>
-Link from fit-PC wiki  <a href="#footnote3">[4]</a><br>
-<a href="https://s3.amazonaws.com/fit-iot/fitlet3/documents/fitlet2-vs-fitlet3.pdf">https://s3.amazonaws.com/fit-iot/fitlet3/documents/fitlet2-vs-fitlet3.pdf</a>
+<a href="../fitlet2/index.html">fitlet2/index.html</a><br>
+Wed 26 Oct 2022 05:09:39 PM AKDT
 
 
 <!--- =============================== LINKS =========================== --->
@@ -386,12 +382,19 @@ Link from fit-PC wiki  <a href="#footnote3">[4]</a><br>
 <p style="margin-top:1cm;">
 <h2>Links</h2>
 
-<a name="footnote0">[1]</a> fitlet3 – build-to-order<br>
+<!---
+<a name="footnote1">[1]</a> Fitlet3 is a compact, fanless Elkhart Lake mini PC for IoT and industrial applications<br>
+FEBRUARY 9, 2022 BY JEAN-LUC AUFRANC (CNXSOFT) - 2 COMMENTS<br>
+<a href="https://www.cnx-software.com/2022/02/09/fitlet3-compact-fanless-elkhart-lake-mini-pc-for-iot-and-industrial-applications/">
+  https://www.cnx-software.com/2022/02/09/fitlet3-compact-fanless-elkhart-lake-mini-pc-for-iot-and-industrial-applications/<a/>
+--->
+
+<a name="footnote1">[1]</a> fitlet3 – build-to-order<br>
 <a href="https://fit-iot.com/web/product/fitlet3-build-to-order/">
   https://fit-iot.com/web/product/fitlet3-build-to-order/</a>
 
 <p style="margin-top:0.[6]cm;">
-<a name="footnote1">[2]</a> fitlet2, Miniature, Capable, Durable,
+<a name="footnote2">[2]</a> fitlet2, Miniature, Capable, Durable,
 IoT ready, Afforadable<br>
 <a href="https://fit-iot.com/web/products/fitlet2/">
   https://fit-iot.com/web/products/fitlet2/</a>
@@ -417,10 +420,11 @@ fit-PC wiki<br>
 <a name="footnote[6]">[6]</a> Fitlet3 back<br>
 fit-PC wiki<br>
 <a href="https://fit-pc.com/wiki/index.php?title=File:Fitlet3_back_with_text_wbg_v6.png">https://fit-pc.com/wiki/index.php?title=File:Fitlet3_back_with_text_wbg_v6.png</a>
+  
 
 <!--- ================== COMPARISON OF FITLET2 VS FITLET3 ============= --->
 <!--- ================== COMPARISON OF FITLET2 VS FITLET3 ============= --->
-<p style="margin-top:0.[6]cm;">
+<p style="margin-top:0.5cm;">
 Comparison of fitlet3 vs fitlet2 characteristics<br>
 Very, very nice comparison chart.<br>
 Compulab<br>
@@ -439,23 +443,10 @@ and monitoring applications.&quot;<br>
 https://www.compulab.com/products/iot-gateways</a>
 
 <p>
-Crucial - P3 1TB Internal SSD PCIe Gen 3.0 NVMe<br>
-Model:CT1000P3SSD8SKU:6[6]09712<br>
-Very nice at $73.99<br>
-Is it compatible with fitlet3?<br>
-<a href="https://www.bestbuy.com/site/crucial-p3-1tb-internal-ssd-pcie-gen-3-0-nvme/6[6]09712.p?skuId=6[6]09712&ref=NS&loc=101&ref=212&loc=1&gclid=CjwKCAjw2OiaBhBSEiwAh2ZSPzdTRcAj4BdeFaUW9LZILfrIomADH3ZauxiVlSa0xZY0yDaz21X4UBoCiqoQAvD_BwE&gclsrc=aw.ds">https://www.bestbuy.com/...</a>
-
-<p>
-<strong>Crucial NVMe SSDs</strong><br>
-NVMe is the latest and fastest in performance SSD technology<br>
-<a href="https://www.crucial.com/products/ssd">
-  https://www.crucial.com/products/ssd</a>
-
-<p>
 FC3-EB-M2SATA FACET Card<br>
-SATA expansion for 2.[6]&quot; HDD / SSD 2,3<br>
-This could totally enable a <a href="https://www.bestbuy.com/site/crucial-mx[6]00-1tb-internal-ssd-sata/62[6]4400.p?skuId=62[6]4400">1TB</a> or
-<a href="https://www.bestbuy.com/site/crucial-mx[6]00-2tb-internal-ssd-sata/6321004.p?skuId=6321004">2TB</a> SSD drive.<br>
+SATA expansion for 2.5&quot; HDD / SSD 2,3<br>
+This could totally enable a <a href="https://www.bestbuy.com/site/crucial-mx500-1tb-internal-ssd-sata/6254400.p?skuId=6254400">1TB</a> or
+<a href="https://www.bestbuy.com/site/crucial-mx500-2tb-internal-ssd-sata/6321004.p?skuId=6321004">2TB</a> SSD drive.<br>
 <a href="https://fit-pc.com/wiki/index.php?title=EB-M2SATA_FACET3_Card">
   https://fit-pc.com/wiki/index.php?title=EB-M2SATA_FACET3_Card</a>
 
@@ -467,12 +458,6 @@ fitlet2<br>
 fitlet3 – build-to-order<br>
 <a href="https://fit-iot.com/web/product/fitlet3-build-to-order/">
   https://fit-iot.com/web/product/fitlet3-build-to-order/</a>
-
-<p style="margin-top:0.[6]cm;">
-fitlet3 product page<br>
-Link from fit-PC wiki  <a href="#footnote3">[4]</a><br>
-<a href="https://fit-iot.com/web/products/fitlet3-intro/">
-  https://fit-iot.com/web/products/fitlet3-intro/</a>
 
 <p>
 fitlet3 Specifications and block diagram<br>
@@ -487,9 +472,9 @@ Great pictures with labeled Fitlet3 ports.<br>
   https://fit-pc.com/wiki/index.php?title=Fitlet3</a>
   
 <p>
-Intel Atom® x642[6]E Processor<br>
-<a href="https://www.intel.com/content/www/us/en/products/sku/207907/intel-atom-x642[6]e-processor-1-[6]m-cache-up-to-3-00-ghz/specifications.html">
-https://www.intel.com/content/www/us/en/products/sku/207907/intel-atom-x642[6]e-processor-1-[6]m-cache-up-to-3-00-ghz/specifications.html</a>
+Intel Atom® x6425E Processor<br>
+<a href="https://www.intel.com/content/www/us/en/products/sku/207907/intel-atom-x6425e-processor-1-5m-cache-up-to-3-00-ghz/specifications.html">
+https://www.intel.com/content/www/us/en/products/sku/207907/intel-atom-x6425e-processor-1-5m-cache-up-to-3-00-ghz/specifications.html</a>
   
 </td></tr>
 </table>
